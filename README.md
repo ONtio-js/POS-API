@@ -2,7 +2,7 @@
 
 point of sale appilication programming interface which can be integrated with the UI to help you in setting up your business dialy  transactions within your mobile, tablet, pc and system embedded machines
 
-its designed with the sole of helping small online businesses to scale their transaction process.
+its designed with the sole purpose of helping small online businesses to scale their transaction process.
 ## HOW TO USE THE API
   coming soon ..
 ## THE SYSTEM DESIGN AND ITS ANALYSIS
