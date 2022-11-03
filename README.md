@@ -7,6 +7,6 @@ its designed with the sole of helping small online businesses to scale their tra
 
 <summary>:rocket:&nbsp;&nbsp;&nbsp;<b>THE DATA FLOW DIAGRAM</b></summary>
 
-<img src="UML/DFD/POS-API-LEVEL 0.png">
+<details><img src="UML/DFD/POS-API-LEVEL 0.png"></details>
 <summary>:rocket:&nbsp;&nbsp;&nbsp;<b>THE ENTITY RELATIONSHIP DIAGRAM</b></summary>
 Point of sale application programming interface using laravel PHP Frameworks
