@@ -14,7 +14,14 @@ return new class extends Migration
     public function up()
     {
         Schema::create('transactions', function (Blueprint $table) {
-            $table->id();
+            $table->uuid(column:'id');
+            $table->string(column:'payment_id');
+            $table->enum(column:'payment_status',allowed:['success','fail']);
+            $table->string(column:'items_id');
+            $table->string(column:'quantity');
+            $table->string(column:'attendant',length:20);
+            $table->time(column:'time');
+            $table->timestamp(column:'created_at');
             $table->timestamps();
         });
     }
