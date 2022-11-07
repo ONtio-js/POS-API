@@ -22,7 +22,6 @@ return new class extends Migration
             $table->string(column:'attendant',length:20);
             $table->time(column:'time');
             $table->timestamp(column:'created_at');
-            $table->timestamps();
         });
     }
 

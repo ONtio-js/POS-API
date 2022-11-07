@@ -16,9 +16,14 @@ return new class extends Migration
         Schema::create('product_details', function (Blueprint $table) {
             $table->uuid(column:'id');
             $table->string(column:'quantity');
+            $table->string(column:'category');
             $table->string(column:'item',length:20);
             $table->string(column:'costprice');
-            $table->
+            $table->string(column:'sellingprice');
+            $table->string(column:'totalcost');
+            $table->string(column:'supplier');
+            $table->string(column:'supplier_address');
+            $table->string(column:'supplier_phone');
             $table->timestamps();
         });
     }
