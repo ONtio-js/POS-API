@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\v1;
+namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class SalesController extends Controller
+class RecordController extends Controller
 {
     /**
      * Display a listing of the resource.
